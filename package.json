@@ -13,7 +13,10 @@
     "pub": "git add . && git commit -m \"Updates\" &&  npm version patch && npm run build && npm publish"
   },
   "keywords": [],
-  "author": "",
+  "author": "Amr Elshamy",
+  "repository": {
+    "url": "https://github.com/aelshamy/node-microservices/tree/master/ticketing"
+  },
   "license": "ISC",
   "publishConfig": {
     "access": "public"
