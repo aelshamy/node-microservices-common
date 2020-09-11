@@ -10,6 +10,7 @@ export * from './events/base/base-publisher';
 export * from './events/base/subjects';
 export * from './events/ticket-created-event';
 export * from './events/ticket-updated-event';
+export * from './events/types/order-status';
 export * from './middlewares/error-handler';
 export * from './middlewares/require.auth';
 export * from './middlewares/user-exists';
