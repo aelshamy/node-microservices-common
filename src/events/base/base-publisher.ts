@@ -12,7 +12,7 @@ export abstract class BasePublisher<T extends BaseEvent> {
         if (error) {
           return reject(error);
         }
-        console.log('Event Published to subject ', this.subject);
+        console.log('Event Published to subject', this.subject);
         resolve();
       });
     });
