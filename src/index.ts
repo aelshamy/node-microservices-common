@@ -8,6 +8,7 @@ export * from './events/base/base-event';
 export * from './events/base/base-listener';
 export * from './events/base/base-publisher';
 export * from './events/base/subjects';
+export * from './events/expiratoin-complete-event';
 export * from './events/order-cancelled-event';
 export * from './events/order-created-event';
 export * from './events/ticket-created-event';
